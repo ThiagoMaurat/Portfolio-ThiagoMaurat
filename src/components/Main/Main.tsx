@@ -17,7 +17,7 @@ export function Main(): JSX.Element {
       <S.Content>
         <S.StyleText>
         <h1>Thiago Maurat</h1>
-        <h2>Desenvolvedor Full Stack</h2>
+        <h2>Desenvolvedor Front-End</h2>
         </S.StyleText>
       <S.LogosSocialMedia>
       <a href="https://www.instagram.com/thiago_mmd/"><Instagram size={50} /></a> 
