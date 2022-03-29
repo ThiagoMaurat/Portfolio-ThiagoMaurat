@@ -11,7 +11,7 @@ export const Page = styled.div`
 export const WhoAmI = styled.div`
   display: flex;
   flex-direction: column;
-    width: 446px;
+  width: 446px;
   text-align: justify;
   line-height: 1.3;
   font-size: 1.3rem;
@@ -30,8 +30,9 @@ export const Knowledges = styled.div`
   display: flex;
   flex-direction: column;
   width: 400px;
+
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #000000;
     text-align: center;
@@ -42,7 +43,7 @@ export const Knowledges = styled.div`
   }
 
   li {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: justify;
     margin-top: 1rem;
     margin-bottom: 1rem;
