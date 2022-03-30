@@ -5,12 +5,24 @@ export const main = styled.main`
   height: calc(100vh - 4rem);
   display: flex;
   justify-content: space-evenly;
+  max-height: fit-content;
+
+  @media (max-width: 812px) {
+    flex-direction: column;
+    height: auto;
+  }
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media (max-width: 812px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const StyledDivNextImage = styled.div`
@@ -18,7 +30,6 @@ export const StyledDivNextImage = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 
   img {
     transition: all 0.3s ease-in-out;
@@ -38,6 +49,11 @@ export const LogosSocialMedia = styled.div`
   a {
     text-decoration: none;
     color: #0767dc;
+  }
+
+  @media (max-width: 812px) {
+    display: flex;
+    flex-wrap: wrap;
   }
 `;
 

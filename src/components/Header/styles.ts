@@ -9,6 +9,11 @@ export const Header = styled.div`
   width: 100%;
   height: 4rem;
   background-color: white;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    height: auto;
+  }
 `;
 
 export const Logo = styled.div`
@@ -17,6 +22,11 @@ export const Logo = styled.div`
   align-items: center;
   margin-left: 3.5rem;
   color: #000000;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    height: auto;
+  }
 `;
 
 export const Content = styled.div`
@@ -34,7 +44,14 @@ export const Content = styled.div`
 
     &:hover {
       color: #0767dc;
-      
     }
+  }
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
   }
 `;

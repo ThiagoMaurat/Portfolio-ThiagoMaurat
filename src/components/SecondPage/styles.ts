@@ -6,6 +6,12 @@ export const Page = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+    height: auto;
+    
+  }
 `;
 
 export const WhoAmI = styled.div`
@@ -24,12 +30,22 @@ export const WhoAmI = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 export const Knowledges = styled.div`
   display: flex;
   flex-direction: column;
-  width: 400px;
+  text-align: center;
+  justify-content: center;
+
+  @media (max-width: 830px) {
+    margin-top: 1.8rem;
+    
+  }
 
   h3 {
     font-size: 1.4rem;
