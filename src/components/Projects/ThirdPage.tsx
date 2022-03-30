@@ -10,7 +10,7 @@ import * as S from "./styles";
 export default function ThirdPage() {
   return (
     <>
-      <S.ProjectsTitle>Projetos</S.ProjectsTitle>
+      <S.ProjectsTitle id="ThirdPage">Projetos</S.ProjectsTitle>
       <S.ProjectsContainer>
         <S.ProjectsDiv>
           <S.Projects>

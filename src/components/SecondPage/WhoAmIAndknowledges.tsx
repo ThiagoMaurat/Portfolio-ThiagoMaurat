@@ -11,7 +11,7 @@ import * as S from "./styles";
 
 export const WhoAmIAndknowledges = () => {
   return (
-    <S.Page>
+    <S.Page id="projetos">
       <S.WhoAmI>
         <h3>Quem sou eu?</h3>
         <p>
@@ -33,7 +33,7 @@ export const WhoAmIAndknowledges = () => {
           o término do dia.
         </p>
       </S.WhoAmI>
-      <S.Knowledges>
+      <S.Knowledges id="conhecimentos">
         <h3>Conhecimentos</h3>
         <ul>
           <li>
